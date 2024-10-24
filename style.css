@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -74,4 +75,82 @@ body {
     from { transform: translateY(100px); }
     to { transform: translateY(0); }
   }
+=======
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  section {
+    padding: 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #about {
+    background: linear-gradient(45deg, #ff8a00, #e52e71);
+    color: white;
+    animation: fadeIn 2s ease-out;
+  }
+  
+  #projects, #contact {
+    background: #f4f4f4;
+    animation: slideIn 2s ease-out;
+  }
+  
+  footer {
+    text-align: center;
+    background: #000;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    section {
+        padding: 20px;
+    }
+  }
+  
+  /* Scroll Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateY(100px); }
+    to { transform: translateY(0); }
+  }
+>>>>>>> bdc3bc7542da96d1163573013414c63039d5c73b
   
